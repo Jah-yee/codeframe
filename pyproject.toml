@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codeframe"
+version = "0.1.0"
+description = "Beautiful code screenshots from your terminal — SVG output, syntax highlighting, 5 themes."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [{name = "Seven Du", email = "jydu_seven@outlook.com"}]
+dependencies = ["pygments>=2.14"]
+keywords = ["code", "screenshot", "svg", "syntax-highlighting", "terminal", "cli"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Multimedia :: Graphics",
+]
+
+[project.urls]
+Homepage = "https://github.com/Jah-yee/codeframe"
+Repository = "https://github.com/Jah-yee/codeframe"
+Issues = "https://github.com/Jah-yee/codeframe/issues"
+
+[project.scripts]
+codeframe = "codeframe:main"

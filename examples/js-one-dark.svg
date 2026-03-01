@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 490" fill="none">
+  <style>.m{font-family:'SF Mono','Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;font-size:14px;white-space:pre}</style>
+  <rect fill="#00000033" x="4" y="4" width="570" height="490" rx="10"/>
+  <rect fill="#282c34" width="570" height="490" rx="10"/>
+  <rect fill="#21252b" width="570" height="40" rx="10"/>
+  <rect fill="#21252b" y="10" width="570" height="30"/>
+  <circle fill="#ff5f57" cx="24" cy="20" r="6"/>
+  <circle fill="#febc2e" cx="46" cy="20" r="6"/>
+  <circle fill="#28c840" cx="68" cy="20" r="6"/>
+  <text class="m" fill="#636d83" x="285" y="25" text-anchor="middle" font-size="12">app.js</text>
+  <line x1="0" y1="40" x2="570" y2="40" stroke="#3e4451" stroke-width="1"/>
+  <text class="m" fill="#495162" x="58" y="73" text-anchor="end" font-size="13">1</text>
+  <text class="m" fill="#abb2bf" x="68" y="73" xml:space="preserve"><tspan fill="#c678dd">const</tspan> express <tspan fill="#56b6c2">=</tspan> require<tspan fill="#56b6c2">(</tspan><tspan fill="#98c379">&quot;express&quot;</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="95" text-anchor="end" font-size="13">2</text>
+  <text class="m" fill="#abb2bf" x="68" y="95" xml:space="preserve"><tspan fill="#c678dd">const</tspan> app <tspan fill="#56b6c2">=</tspan> express<tspan fill="#56b6c2">(</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="117" text-anchor="end" font-size="13">3</text>
+  <text class="m" fill="#495162" x="58" y="139" text-anchor="end" font-size="13">4</text>
+  <text class="m" fill="#abb2bf" x="68" y="139" xml:space="preserve"><tspan fill="#5c6370">// Middleware</tspan></text>
+  <text class="m" fill="#495162" x="58" y="161" text-anchor="end" font-size="13">5</text>
+  <text class="m" fill="#abb2bf" x="68" y="161" xml:space="preserve">app<tspan fill="#56b6c2">.</tspan>use<tspan fill="#56b6c2">(</tspan>express<tspan fill="#56b6c2">.</tspan>json<tspan fill="#56b6c2">(</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="183" text-anchor="end" font-size="13">6</text>
+  <text class="m" fill="#495162" x="58" y="205" text-anchor="end" font-size="13">7</text>
+  <text class="m" fill="#abb2bf" x="68" y="205" xml:space="preserve">app<tspan fill="#56b6c2">.</tspan>get<tspan fill="#56b6c2">(</tspan><tspan fill="#98c379">&quot;/api/health&quot;</tspan><tspan fill="#56b6c2">,</tspan> <tspan fill="#56b6c2">(</tspan>req<tspan fill="#56b6c2">,</tspan> res<tspan fill="#56b6c2">)</tspan> <tspan fill="#56b6c2">=&gt;</tspan> <tspan fill="#56b6c2">{</tspan></text>
+  <text class="m" fill="#495162" x="58" y="227" text-anchor="end" font-size="13">8</text>
+  <text class="m" fill="#abb2bf" x="68" y="227" xml:space="preserve">  res<tspan fill="#56b6c2">.</tspan>json<tspan fill="#56b6c2">(</tspan><tspan fill="#56b6c2">{</tspan> status<tspan fill="#56b6c2">:</tspan> <tspan fill="#98c379">&quot;ok&quot;</tspan><tspan fill="#56b6c2">,</tspan> uptime<tspan fill="#56b6c2">:</tspan> process<tspan fill="#56b6c2">.</tspan>uptime<tspan fill="#56b6c2">(</tspan><tspan fill="#56b6c2">)</tspan> <tspan fill="#56b6c2">}</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="249" text-anchor="end" font-size="13">9</text>
+  <text class="m" fill="#abb2bf" x="68" y="249" xml:space="preserve"><tspan fill="#56b6c2">}</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="271" text-anchor="end" font-size="13">10</text>
+  <text class="m" fill="#495162" x="58" y="293" text-anchor="end" font-size="13">11</text>
+  <text class="m" fill="#abb2bf" x="68" y="293" xml:space="preserve">app<tspan fill="#56b6c2">.</tspan>post<tspan fill="#56b6c2">(</tspan><tspan fill="#98c379">&quot;/api/transform&quot;</tspan><tspan fill="#56b6c2">,</tspan> <tspan fill="#c678dd">async</tspan> <tspan fill="#56b6c2">(</tspan>req<tspan fill="#56b6c2">,</tspan> res<tspan fill="#56b6c2">)</tspan> <tspan fill="#56b6c2">=&gt;</tspan> <tspan fill="#56b6c2">{</tspan></text>
+  <text class="m" fill="#495162" x="58" y="315" text-anchor="end" font-size="13">12</text>
+  <text class="m" fill="#abb2bf" x="68" y="315" xml:space="preserve">  <tspan fill="#c678dd">const</tspan> <tspan fill="#56b6c2">{</tspan> input<tspan fill="#56b6c2">,</tspan> format <tspan fill="#56b6c2">=</tspan> <tspan fill="#98c379">&quot;svg&quot;</tspan> <tspan fill="#56b6c2">}</tspan> <tspan fill="#56b6c2">=</tspan> req<tspan fill="#56b6c2">.</tspan>body<tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="337" text-anchor="end" font-size="13">13</text>
+  <text class="m" fill="#abb2bf" x="68" y="337" xml:space="preserve">  <tspan fill="#c678dd">const</tspan> result <tspan fill="#56b6c2">=</tspan> <tspan fill="#c678dd">await</tspan> renderCode<tspan fill="#56b6c2">(</tspan>input<tspan fill="#56b6c2">,</tspan> <tspan fill="#56b6c2">{</tspan> format <tspan fill="#56b6c2">}</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="359" text-anchor="end" font-size="13">14</text>
+  <text class="m" fill="#abb2bf" x="68" y="359" xml:space="preserve">  res<tspan fill="#56b6c2">.</tspan>type<tspan fill="#56b6c2">(</tspan>format<tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">.</tspan>send<tspan fill="#56b6c2">(</tspan>result<tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="381" text-anchor="end" font-size="13">15</text>
+  <text class="m" fill="#abb2bf" x="68" y="381" xml:space="preserve"><tspan fill="#56b6c2">}</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="403" text-anchor="end" font-size="13">16</text>
+  <text class="m" fill="#495162" x="58" y="425" text-anchor="end" font-size="13">17</text>
+  <text class="m" fill="#abb2bf" x="68" y="425" xml:space="preserve">app<tspan fill="#56b6c2">.</tspan>listen<tspan fill="#56b6c2">(</tspan><tspan fill="#d19a66">3000</tspan><tspan fill="#56b6c2">,</tspan> <tspan fill="#56b6c2">(</tspan><tspan fill="#56b6c2">)</tspan> <tspan fill="#56b6c2">=&gt;</tspan> <tspan fill="#56b6c2">{</tspan></text>
+  <text class="m" fill="#495162" x="58" y="447" text-anchor="end" font-size="13">18</text>
+  <text class="m" fill="#abb2bf" x="68" y="447" xml:space="preserve">  console<tspan fill="#56b6c2">.</tspan>log<tspan fill="#56b6c2">(</tspan><tspan fill="#98c379">&quot;✦ codeframe server running on :3000&quot;</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+  <text class="m" fill="#495162" x="58" y="469" text-anchor="end" font-size="13">19</text>
+  <text class="m" fill="#abb2bf" x="68" y="469" xml:space="preserve"><tspan fill="#56b6c2">}</tspan><tspan fill="#56b6c2">)</tspan><tspan fill="#56b6c2">;</tspan></text>
+</svg>

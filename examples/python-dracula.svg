@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 603 666" fill="none">
+  <style>.m{font-family:'SF Mono','Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;font-size:14px;white-space:pre}</style>
+  <rect fill="#00000033" x="4" y="4" width="603" height="666" rx="10"/>
+  <rect fill="#282a36" width="603" height="666" rx="10"/>
+  <rect fill="#21222c" width="603" height="40" rx="10"/>
+  <rect fill="#21222c" y="10" width="603" height="30"/>
+  <circle fill="#ff5555" cx="24" cy="20" r="6"/>
+  <circle fill="#f1fa8c" cx="46" cy="20" r="6"/>
+  <circle fill="#50fa7b" cx="68" cy="20" r="6"/>
+  <text class="m" fill="#6272a4" x="301" y="25" text-anchor="middle" font-size="12">hello.py</text>
+  <line x1="0" y1="40" x2="603" y2="40" stroke="#44475a" stroke-width="1"/>
+  <text class="m" fill="#6272a4" x="58" y="73" text-anchor="end" font-size="13">1</text>
+  <text class="m" fill="#f8f8f2" x="68" y="73" xml:space="preserve"><tspan fill="#ff79c6">import</tspan> math</text>
+  <text class="m" fill="#6272a4" x="58" y="95" text-anchor="end" font-size="13">2</text>
+  <text class="m" fill="#f8f8f2" x="68" y="95" xml:space="preserve"><tspan fill="#ff79c6">from</tspan> dataclasses <tspan fill="#ff79c6">import</tspan> dataclass</text>
+  <text class="m" fill="#6272a4" x="58" y="117" text-anchor="end" font-size="13">3</text>
+  <text class="m" fill="#6272a4" x="58" y="139" text-anchor="end" font-size="13">4</text>
+  <text class="m" fill="#6272a4" x="58" y="161" text-anchor="end" font-size="13">5</text>
+  <text class="m" fill="#f8f8f2" x="68" y="161" xml:space="preserve"><tspan fill="#50fa7b">@dataclass</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="183" text-anchor="end" font-size="13">6</text>
+  <text class="m" fill="#f8f8f2" x="68" y="183" xml:space="preserve"><tspan fill="#ff79c6">class</tspan> <tspan fill="#ffb86c">Particle</tspan><tspan fill="#ff79c6">:</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="205" text-anchor="end" font-size="13">7</text>
+  <text class="m" fill="#f8f8f2" x="68" y="205" xml:space="preserve">    <tspan fill="#f1fa8c">&quot;&quot;&quot;A particle in 2D space with velocity.&quot;&quot;&quot;</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="227" text-anchor="end" font-size="13">8</text>
+  <text class="m" fill="#f8f8f2" x="68" y="227" xml:space="preserve">    x<tspan fill="#ff79c6">:</tspan> <tspan fill="#8be9fd">float</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="249" text-anchor="end" font-size="13">9</text>
+  <text class="m" fill="#f8f8f2" x="68" y="249" xml:space="preserve">    y<tspan fill="#ff79c6">:</tspan> <tspan fill="#8be9fd">float</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="271" text-anchor="end" font-size="13">10</text>
+  <text class="m" fill="#f8f8f2" x="68" y="271" xml:space="preserve">    vx<tspan fill="#ff79c6">:</tspan> <tspan fill="#8be9fd">float</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#bd93f9">0.0</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="293" text-anchor="end" font-size="13">11</text>
+  <text class="m" fill="#f8f8f2" x="68" y="293" xml:space="preserve">    vy<tspan fill="#ff79c6">:</tspan> <tspan fill="#8be9fd">float</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#bd93f9">0.0</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="315" text-anchor="end" font-size="13">12</text>
+  <text class="m" fill="#6272a4" x="58" y="337" text-anchor="end" font-size="13">13</text>
+  <text class="m" fill="#f8f8f2" x="68" y="337" xml:space="preserve">    <tspan fill="#ff79c6">def</tspan> <tspan fill="#50fa7b">step</tspan><tspan fill="#ff79c6">(</tspan><tspan fill="#8be9fd">self</tspan><tspan fill="#ff79c6">,</tspan> dt<tspan fill="#ff79c6">:</tspan> <tspan fill="#8be9fd">float</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#bd93f9">0.016</tspan><tspan fill="#ff79c6">)</tspan><tspan fill="#ff79c6">:</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="359" text-anchor="end" font-size="13">14</text>
+  <text class="m" fill="#f8f8f2" x="68" y="359" xml:space="preserve">        <tspan fill="#8be9fd">self</tspan><tspan fill="#ff79c6">.</tspan>x <tspan fill="#ff79c6">+</tspan><tspan fill="#ff79c6">=</tspan> <tspan fill="#8be9fd">self</tspan><tspan fill="#ff79c6">.</tspan>vx <tspan fill="#ff79c6">*</tspan> dt</text>
+  <text class="m" fill="#6272a4" x="58" y="381" text-anchor="end" font-size="13">15</text>
+  <text class="m" fill="#f8f8f2" x="68" y="381" xml:space="preserve">        <tspan fill="#8be9fd">self</tspan><tspan fill="#ff79c6">.</tspan>y <tspan fill="#ff79c6">+</tspan><tspan fill="#ff79c6">=</tspan> <tspan fill="#8be9fd">self</tspan><tspan fill="#ff79c6">.</tspan>vy <tspan fill="#ff79c6">*</tspan> dt</text>
+  <text class="m" fill="#6272a4" x="58" y="403" text-anchor="end" font-size="13">16</text>
+  <text class="m" fill="#6272a4" x="58" y="425" text-anchor="end" font-size="13">17</text>
+  <text class="m" fill="#f8f8f2" x="68" y="425" xml:space="preserve">    <tspan fill="#50fa7b">@property</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="447" text-anchor="end" font-size="13">18</text>
+  <text class="m" fill="#f8f8f2" x="68" y="447" xml:space="preserve">    <tspan fill="#ff79c6">def</tspan> <tspan fill="#50fa7b">speed</tspan><tspan fill="#ff79c6">(</tspan><tspan fill="#8be9fd">self</tspan><tspan fill="#ff79c6">)</tspan> <tspan fill="#ff79c6">-</tspan><tspan fill="#ff79c6">&gt;</tspan> <tspan fill="#8be9fd">float</tspan><tspan fill="#ff79c6">:</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="469" text-anchor="end" font-size="13">19</text>
+  <text class="m" fill="#f8f8f2" x="68" y="469" xml:space="preserve">        <tspan fill="#ff79c6">return</tspan> math<tspan fill="#ff79c6">.</tspan>sqrt<tspan fill="#ff79c6">(</tspan><tspan fill="#8be9fd">self</tspan><tspan fill="#ff79c6">.</tspan>vx<tspan fill="#ff79c6">*</tspan><tspan fill="#ff79c6">*</tspan><tspan fill="#bd93f9">2</tspan> <tspan fill="#ff79c6">+</tspan> <tspan fill="#8be9fd">self</tspan><tspan fill="#ff79c6">.</tspan>vy<tspan fill="#ff79c6">*</tspan><tspan fill="#ff79c6">*</tspan><tspan fill="#bd93f9">2</tspan><tspan fill="#ff79c6">)</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="491" text-anchor="end" font-size="13">20</text>
+  <text class="m" fill="#6272a4" x="58" y="513" text-anchor="end" font-size="13">21</text>
+  <text class="m" fill="#6272a4" x="58" y="535" text-anchor="end" font-size="13">22</text>
+  <text class="m" fill="#f8f8f2" x="68" y="535" xml:space="preserve"><tspan fill="#ff79c6">def</tspan> <tspan fill="#50fa7b">simulate</tspan><tspan fill="#ff79c6">(</tspan>particles<tspan fill="#ff79c6">:</tspan> <tspan fill="#8be9fd">list</tspan><tspan fill="#ff79c6">[</tspan>Particle<tspan fill="#ff79c6">]</tspan><tspan fill="#ff79c6">,</tspan> steps<tspan fill="#ff79c6">:</tspan> <tspan fill="#8be9fd">int</tspan> <tspan fill="#ff79c6">=</tspan> <tspan fill="#bd93f9">1000</tspan><tspan fill="#ff79c6">)</tspan><tspan fill="#ff79c6">:</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="557" text-anchor="end" font-size="13">23</text>
+  <text class="m" fill="#f8f8f2" x="68" y="557" xml:space="preserve">    <tspan fill="#f1fa8c">&quot;&quot;&quot;Run a simple n-body simulation.&quot;&quot;&quot;</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="579" text-anchor="end" font-size="13">24</text>
+  <text class="m" fill="#f8f8f2" x="68" y="579" xml:space="preserve">    <tspan fill="#ff79c6">for</tspan> _ <tspan fill="#ff79c6">in</tspan> <tspan fill="#8be9fd">range</tspan><tspan fill="#ff79c6">(</tspan>steps<tspan fill="#ff79c6">)</tspan><tspan fill="#ff79c6">:</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="601" text-anchor="end" font-size="13">25</text>
+  <text class="m" fill="#f8f8f2" x="68" y="601" xml:space="preserve">        <tspan fill="#ff79c6">for</tspan> p <tspan fill="#ff79c6">in</tspan> particles<tspan fill="#ff79c6">:</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="623" text-anchor="end" font-size="13">26</text>
+  <text class="m" fill="#f8f8f2" x="68" y="623" xml:space="preserve">            p<tspan fill="#ff79c6">.</tspan>step<tspan fill="#ff79c6">(</tspan><tspan fill="#ff79c6">)</tspan></text>
+  <text class="m" fill="#6272a4" x="58" y="645" text-anchor="end" font-size="13">27</text>
+  <text class="m" fill="#f8f8f2" x="68" y="645" xml:space="preserve">    <tspan fill="#ff79c6">return</tspan> <tspan fill="#ff79c6">[</tspan>p<tspan fill="#ff79c6">.</tspan>speed <tspan fill="#ff79c6">for</tspan> p <tspan fill="#ff79c6">in</tspan> particles<tspan fill="#ff79c6">]</tspan></text>
+</svg>
