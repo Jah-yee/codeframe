@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Supports Python 3.8+
 """
 codeframe — Beautiful code screenshots from your terminal.
 
