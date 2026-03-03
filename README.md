@@ -21,7 +21,7 @@ You want a code screenshot for your README, blog post, slide deck, or tweet. Cur
 - **Freeze** — Go. Same story.
 - **Screenshots** — manually crop, inconsistent, not scalable.
 
-**codeframe** is a single Python file. `pip install`, run, done. Output is SVG — scalable, tiny, embeddable anywhere.
+**codeframe** is a single Python file. `pip install`, run, done. Output is SVG — scalable, tiny, embeddable anywhere. Tested with Python 3.8+.
 
 <br>
 
